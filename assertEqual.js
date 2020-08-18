@@ -5,7 +5,3 @@ const assertEqual = (actual, expected) => {
     console.log(`😱 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-assertEqual("Butts", "Butts");
-assertEqual("Butts", "butts");
-assertEqual(69, 69);
-assertEqual(69, 420);
