@@ -28,8 +28,7 @@
 const letterPositions = input => {
   let output = {}
   for (let key in input) {
-    if (input[key] === ' ') {
-    } else {
+    if (!(input[key] === ' ')) {
       if (!output[input[key]]) {
         output[input[key]] = [Number(key)];
       } else {
@@ -40,6 +39,6 @@ const letterPositions = input => {
   return output;
 };
 
-// console.log(letterPositions("lighthouse in the house").u) 
+console.log(letterPositions("lighthouse in the house").e) 
 
 // assertEqualArrays(letterPositions("hello").e, [1]);
