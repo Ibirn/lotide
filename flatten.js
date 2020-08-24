@@ -1,15 +1,17 @@
-const flatten = input => {
+const flatten = array => {
   let output = [];
-  for (let i = 0; i < input.length; i++) {
-    if (Array.isArray(input[i])) {
-      for (let j = 0; j < input[i].length; j++) {
-        output.push(input[i][j]);
+  function deepProtection (array) {
+    for (let i = 0; i < array.length; i++) {
+      if (Array.isArray(array[i])) {
+        deepProtection(array[i])
       }
-    } else {
-      output.push(input[i]);
+      else {
+        output.push(array[i])
+      }
     }
   }
+  deepProtection(array)
   return output;
-};
+}
 
 module.exports = flatten;
