@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minified clone of the Lodash library built for educational purposes.",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Ibirn/lotide.git"
   },
-  "author": "",
+  "author": "Keagan Ricciuti <kmcricciuti@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ibirn/lotide/issues"
