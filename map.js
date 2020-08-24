@@ -5,3 +5,4 @@ const map = (array, callback) => {
   }
   return output;
 };
+module.exports = map;

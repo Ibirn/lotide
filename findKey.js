@@ -6,3 +6,4 @@ const findKey = (checkObj, callback) => {
   }
   return "No matches.";
 };
+module.exports = findKey;

@@ -8,3 +8,4 @@ const joinList = array => {
   }
   return output;
 };
+module.exports = joinList;

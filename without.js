@@ -1,8 +1,3 @@
-// const without = (source, remove) => {
-//   let output = source.filter(number => !remove.includes(number));
-//   return output;
-// };
-// //console.log(without(["cat", "dog", "human" ], [2, "cat", true])); // => [2, 3]
 const without = (source, remove) => {
   let indexArray = [];
   let outputArray = source;
@@ -19,4 +14,4 @@ const without = (source, remove) => {
   return outputArray;
 };
 
-//console.log(without([1, true, "haberdashery", -4, "0"],["haberdashery", true]))
+module.exports = without;
